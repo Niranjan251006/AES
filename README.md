@@ -19,7 +19,7 @@ void xor_encrypt_decrypt(char *input, char *key) {
     }
 }
 int main() {
-    char url[] = "KANU";
+    char url[] = "NIRANJAN";
     char key[] = "secretkey";
     printf("Original text: %s\n", url);
     xor_encrypt_decrypt(url, key);
